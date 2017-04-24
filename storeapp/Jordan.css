@@ -1,0 +1,81 @@
+
+/* Set rules to fill background */
+
+body {
+background-image: url("img/Jordan-2.jpg")  ;
+background-size: : min-width: 100%, min-height: 100%;
+background-color: black;
+background-repeat: no-repeat;
+
+}
+
+header {
+	font-weight: bold;
+}
+
+#main-header {
+	background-color: lightgray;
+	border: 3px solid powderblue;
+	height: 70px;
+
+}
+
+input {
+    display:inline-block;
+    float:right;
+}
+
+
+h1 {
+	float: center;
+	float: top;
+	color: black;
+	font-family: serif;
+	font-weight: 900;
+	font-
+}
+
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  background-color: solid gray;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+#instagram_logo {
+	height: 60px;
+	width: 60px;
+	float: left;
+	margin-right: 7px;
+	margin-left: 5px;
+	margin-top: 7px;
+}
+
+#facebook_logo {
+	height: 80px;
+	width: 80px;
+	float: left;
+	margin-right: 4px;
+	margin-left: 1px;
+	margin-top: 1px;
+}
+
+
+#twitter_logo {
+	height: 60px;
+	width: 60px;
+	float: left;
+	margin-right: 8px;
+	margin-left: 1px;
+	margin-top: 10px;
+}
+
+#jordanP {
+	border-radius: 50%;
+	color: solid white;
+	font-weight: italic;
+}

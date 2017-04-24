@@ -1,0 +1,266 @@
+
+/* Set rules to fill background */
+
+html, body {
+background-image: url("img/jordan-4.png")  ;
+background-size: : min-width: 100%, min-height: 100%;
+background-color: black;
+background-repeat: no-repeat;
+background-position: absolute;
+background-clip: all;
+font-family: 'Bungee Shade', cursive;
+font-size: 20px;
+}
+
+#header-name {
+	float: center;
+	margin-right:100px;
+}
+
+
+
+a.headli:hover {
+	  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+	font-size: 40px;
+	color: black;
+	background-color: white;
+		display: inline-block;
+        text-decoration: none;
+}
+
+a.headli:link {
+		display: inline-block;
+		background-color: black;
+        text-decoration: none;
+}
+
+a.headli:hover,link {
+	background-color: white;
+    text-decoration: none;
+}
+
+#search input[type="text"]{
+position:absolute;  
+left:20%;
+top:25%;
+width:30%;
+
+background-color:white; 
+color:grey;
+}
+
+header {
+	font-weight: bold;
+
+}
+
+#header {
+	position: absolute;
+    height:50px;
+    background:#F0F0F0;
+    border:1px solid #CCC;
+    width:960px;
+    margin:0px auto;
+    background-color: gray;
+
+}
+
+
+#bottom-header {
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 50px;
+    float: top;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: solid;
+    border-color: white;
+}
+
+#sneakerworld{
+margin-right:100px;
+font-family: 'serif', cursive;
+}
+
+input {
+    display:inline-block;
+    float: right;
+}
+
+
+h1 {
+	float: center;
+	float: top;
+	color: black;
+	font-family: serif;
+	font-weight: 900;
+	font-
+}
+
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  background-color: solid gray;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#facebook_logo {
+	height: 50px;
+	width: 50px;
+	float: left;
+	float: top;
+	margin-right: 8px;
+	margin-left: 1px;
+	margin-top: 0px;
+}
+
+
+
+#instagram_logo {
+	height: 50px;
+	width: 50px;
+	float: left;
+	margin-right: 7px;
+	margin-left: 4px;
+	margin-top: 0px;
+}
+
+
+
+#twitter_logo {
+	height: 50px;
+	width: 50px;
+	float: left;
+	margin-right: 8px;
+	margin-left: 1px;
+	margin-top: 0px;
+}
+
+.search {width: 300px;height: 40px;margin: 5px 2px 50px auto;top: -122px;position: relative;padding: 0px 15px 0px 10px; background: #444;background: rgba(0,0,0,.2);border-radius:  5px;border: 1px solid #fff;}
+
+.search input {width: 300px;padding: 10px 0px;float: left;color: #ccc;border: 0;background: transparent;border-radius: 3px 0 0 3px;}
+
+.search input:focus {outline: 0;background:transparent;}
+
+.sneakerworld {
+    position: relative;
+    top: -40px;
+    left: -40px;
+    color: white;
+}
+
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+/*-----------------------------------------------------------*/
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    position: right;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.mySlides {
+    width: 100%;
+    height: 800px;
+}
+
+#arrowButtonLeft {
+    color: white;
+}
+
+#arrowButtonRight {
+    color: white;
+}
